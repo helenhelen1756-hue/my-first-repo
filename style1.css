@@ -1,0 +1,77 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #2d3748;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Main University/Department Title */
+h1 {
+    background: linear-gradient(135deg, #1a365d, #2b6cb0);
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 20px;
+    border-radius: 8px;
+    margin-top: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+/* Section Headings */
+h2 {
+    color: #2b6cb0;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 8px;
+    margin-top: 30px;
+    font-size: 1.35rem;
+}
+
+/* Paragraphs */
+p {
+    background-color: #f7fafc;
+    padding: 15px 20px;
+    border-left: 4px solid #3182ce;
+    border-radius: 0 6px 6px 0;
+    color: #4a5568;
+}
+
+/* Lists (Hobbies & Subjects) */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    background-color: #edf2f7;
+    margin: 8px 0;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* Hover Effect on List Items */
+li:hover {
+    background-color: #bee3f8;
+    transform: translateX(6px);
+}
+
+/* Nested List (HTML, CSS under Web Engineering) */
+ul ul {
+    margin-top: 8px;
+    padding-left: 20px;
+}
+
+ul ul li {
+    background-color: #ffffff;
+    border: 1px solid #cbd5e0;
+    font-size: 0.95rem;
+}
